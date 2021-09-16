@@ -1,0 +1,28 @@
+/* for testing */
+/* * {
+    border: 1px solid gold;
+ } */
+
+/* BONUS - Better alignment of inline elements. */
+footer div {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    gap: 10px 20px;
+}
+
+footer h5 {
+    font-size: 24px;
+    text-decoration: underline;
+    background-color: violet;
+    border-bottom-right-radius: 15px;
+    color: white;
+    padding: 0px 10px 10px 50px;
+    display: inline;
+}
+
+footer div ul span {
+    color: violet;
+    font-size: 20px;
+    font-style: italic;
+}
