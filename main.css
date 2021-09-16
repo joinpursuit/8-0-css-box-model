@@ -1,0 +1,96 @@
+p{
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: serif;
+    text-align:center
+}
+
+
+.aligner{
+    background-image: url(./footer-background.png); 
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+    text-align:center;
+    background-size: cover;
+    
+}
+
+a {
+    text-decoration-line:none;
+    color:rgb(66, 66, 234)
+}
+
+
+footer span{
+    font-weight: 700;
+}
+
+.weather p {
+    font-size: 40px;
+    
+}
+
+.above-the-fold article{
+    display:inline-block;
+    
+}
+.weather{
+    width: 300px;
+    border: 2px solid gray;
+  
+}
+
+/* centering Solved by Flexbox */
+/* .above-the-fold {
+    display: flex;
+    align-items: center;
+    float: right;
+    /* justify-content: center; */
+  
+  
+  /* .above-the-fold {
+    max-width: 50%;
+  }
+  
+  .above-the-fold  {
+    align-self: flex-start;
+  }
+  
+  .above-the-fold  {
+    align-self: flex-end;
+  }  */
+
+
+
+
+
+.breaking-news{
+    padding: 0px 30px;
+}
+
+.breaking-news img {
+    width: 200px;
+}
+
+.click-bait article {
+    display:inline-block;
+    margin:16px;
+    width: 250px;
+    padding: 16px;
+    box-sizing: border-box;
+
+}
+.below-the-fold img{
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    width: 200px;
+}
+
+
+.below-the-fold div{
+    width: 500px;
+}
