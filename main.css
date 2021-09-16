@@ -24,3 +24,7 @@ ul {
 footer span {
   font-weight: 700;
 }
+
+.weather p {
+  font-size: 40px;
+}
