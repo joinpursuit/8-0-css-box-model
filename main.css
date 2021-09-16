@@ -43,3 +43,11 @@ footer span {
     width: 200px;
 }
 
+.click-bait article {
+    display: inline-block;
+    width: 250px;
+    padding: 16px;
+    margin: 16px;
+    box-sizing: border-box;
+}
+
