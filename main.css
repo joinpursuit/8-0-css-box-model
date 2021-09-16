@@ -16,6 +16,7 @@ a {
 }
 footer span {
     font-weight: 700;
+    
 }
 .weather p {
     font-size: 40px;
@@ -25,8 +26,9 @@ footer span {
 }
 .weather {
     width: 300px;
-    border: 2px solid gray ;
+    border: 2px solid gray;
 }
+    
 .breaking-news {
     padding: 0px 30px;
 }
@@ -56,6 +58,22 @@ footer span {
 }
 .click-bait {
     text-align: center;
+}
+.above-the-fold {
+    text-align: center;
+}
+body {
+    background-image: url(https://images.all-free-download.com/images/graphiclarge/set_of_sunny_day_vector_background_523668.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.below-the-fold {
+    text-align: center;
+}
+footer li {
+    list-style-type: none;
+    padding-block-start: 0;
+    display: inline-block;
 }
 
 
