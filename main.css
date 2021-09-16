@@ -1,0 +1,25 @@
+p {
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    font-family: serif;
+}
+
+a {
+    text-decoration: none;
+    color: #4242EA;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer {
+    font-weight: 700;
+}
+
+.weather p {
+    font-size: 40px;
+}
