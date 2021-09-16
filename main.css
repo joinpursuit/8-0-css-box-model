@@ -26,10 +26,8 @@ footer span{
     border: 2px solid gray;
 }
 .breaking-news{
-   padding-top: 0px;
-   padding-bottom: 0px;
-   padding-left: 30px;
-   padding-right: 30px;
+   padding: 0px 30px;
+ 
 }
 
 .breaking-news img{
