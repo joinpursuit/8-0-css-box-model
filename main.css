@@ -45,7 +45,25 @@ footer span {
 
 .breaking-news img {
   width: 200px;
-  float: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 40%;
+  margin-right: auto;
+}
+.breaking-news {
+  display: inline-block;
+  width: 800px;
+  padding: 16px;
+  margin: 16px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.breaking-news h2 {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .click-bait article {
@@ -76,6 +94,12 @@ footer span {
 
 .below-the-fold div {
   width: 500px;
+}
+.below-the-fold article {
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: max-content;
 }
 ul {
   float: left;
