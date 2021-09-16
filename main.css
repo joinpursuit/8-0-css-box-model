@@ -57,7 +57,10 @@ footer span {
 }
 
 .below-the-fold article {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
 .below-the-fold img {
@@ -69,6 +72,9 @@ footer span {
 
 .below-the-fold div {
   width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 body {
