@@ -11,3 +11,16 @@ h6{
     font-family: serif;
     text-align: center;
 }
+a{
+    text-decoration: none;
+    color: #4242EA;
+}
+
+h5 div{
+    list-style: none;
+}
+
+footer span {
+    font-weight: 700;
+}
+
