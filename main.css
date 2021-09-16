@@ -1,21 +1,65 @@
 p{
     font-family: sans-serif;
+    text-align: center;
+    
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: serif;
     text-align:center
 }
-
-
+body {
+	align-items: center;
+	background-color: var(--white);
+	background: url("https://slack-imgs.com/?c=1&o1=ro&url=http%3A%2F%2Fwww.photoshopfreebrushes.com%2Fwp-content%2Fuploads%2F2015%2F08%2Fsubtle-web-background-17.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: grid;
+	height: 100vh;
+	place-items: center;
+}
 .aligner{
-    background-image: url(./footer-background.png); 
+    background-image: url(./footer-background.jpeg); 
     background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
     text-align:center;
     background-size: cover;
+  
     
+}
+
+ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.glow {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+
+
+footer{
+    text-decoration-color: rgb(241, 240, 241);
 }
 
 a {
@@ -93,4 +137,15 @@ footer span{
 
 .below-the-fold div{
     width: 500px;
+    text-align: center;
+}
+
+.below-the-fold {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    text-align: center;
 }
