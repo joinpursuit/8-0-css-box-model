@@ -4,6 +4,27 @@
  } */
 
 /* BONUS - Better alignment of inline elements. */
+.weather div {
+    display: flex; 
+    background-color: midnightblue;
+}
+
+.weather div h3 {
+    font-style: italic;
+    color: lightblue;
+    padding-left: 10px;
+}
+
+.weather div p {
+    margin: 0 auto;
+    color: lightblue;
+}
+
+.breaking-news img {
+    text-align: center;
+    border: 1px solid blue;
+}
+
 footer div {
     display: flex;
     align-content: flex-start;
