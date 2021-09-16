@@ -23,3 +23,22 @@ ul {
 .weather p {
     font-size: 40px;
 }
+
+.above-the-fold article{
+    display: inline-block;
+}
+
+.weather {
+    border: 2px solid gray;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+.breaking-news {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.breaking-news img{
+    width: 200px;
+}
