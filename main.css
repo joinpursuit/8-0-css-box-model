@@ -39,8 +39,9 @@ footer span {
     margin: 16px;
     padding: 16px;
     box-sizing: border-box;
-
+    
 }
+
 .below-the-fold article {
     display: inline-block;
 }
@@ -52,6 +53,9 @@ footer span {
 }
 .below-the-fold div {
     width: 500px;
+}
+.click-bait {
+    text-align: center;
 }
 
 
