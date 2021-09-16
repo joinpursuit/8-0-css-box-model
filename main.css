@@ -35,6 +35,8 @@ footer span {
 .weather {
   width: 300px;
   border: 2px solid gray;
+  text-align: center;
+  float: left;
 }
 
 .breaking-news {
@@ -43,6 +45,7 @@ footer span {
 
 .breaking-news img {
   width: 200px;
+  float: left;
 }
 
 .click-bait article {
@@ -51,6 +54,13 @@ footer span {
   padding: 16px;
   margin: 16px;
   box-sizing: border-box;
+  text-align: center;
+}
+.click-bait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
 }
 
 .below-the-fold {
@@ -66,4 +76,22 @@ footer span {
 
 .below-the-fold div {
   width: 500px;
+}
+ul {
+  float: left;
+  margin: 0px 80px 50px;
+}
+
+footer div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+
+img {
+  float: left;
+}
+.below-the-fold div {
+  float: right;
 }
