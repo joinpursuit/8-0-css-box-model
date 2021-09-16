@@ -28,3 +28,7 @@ footer span {
 .weather p {
   font-size: 40px;
 }
+
+.above-the-fold article {
+  display: inline-block;
+}
