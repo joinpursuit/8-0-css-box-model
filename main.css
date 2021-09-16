@@ -35,6 +35,9 @@ ul {
     margin: 10px;
 }
 
+body {
+    background-color: honeydew;
+}
 .breaking-news {
     padding-left: 30px;
     padding-right: 30px;
