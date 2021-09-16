@@ -27,6 +27,7 @@ footer span {
 
 .weather p {
   font-size: 40px;
+  text-align: center;
 }
 
 .above-the-fold article {
@@ -52,6 +53,7 @@ footer span {
   margin: 16px;
   padding: 16px;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .below-the-fold article {
@@ -67,4 +69,19 @@ footer span {
 
 .below-the-fold div {
   width: 500px;
+}
+
+body {
+  display: flex;
+}
+
+main {
+  flex: 1;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
 }
