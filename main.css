@@ -93,6 +93,7 @@ footer span{
     background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F07%2FDownload-Free-Weather-Background.jpg);
     background-size: cover;
     margin-bottom: 20px;
+    border:2px solid rgb(128, 128, 128)
 }
 
 
