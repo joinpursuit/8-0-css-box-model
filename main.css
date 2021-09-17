@@ -57,10 +57,7 @@ footer span {
 }
 
 .below-the-fold article {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: space-evenly;
+  display: inline-block;
 }
 
 .below-the-fold img {
@@ -72,22 +69,24 @@ footer span {
 
 .below-the-fold div {
   width: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
-
-body {
-  display: flex;
-}
-
-main {
-  flex: 1;
-}
-
+/*  */
 footer div {
   display: flex;
   flex-direction: row;
   text-align: center;
   justify-content: space-between;
+}
+
+.below-the-fold,
+.breaking-news {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.click-bait {
+  width: max-content;
+  margin: auto;
 }
