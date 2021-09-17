@@ -48,10 +48,10 @@ footer span {
 
 /* FREESTYLE CHANGES: WEATHER & BREAKING NEWS */
 
-.above-the-fold {
+/* .above-the-fold {
     display: flex;
     justify-content: flex-start;
-}
+} */
 
 .breaking-news {
     text-align: center;
@@ -76,9 +76,13 @@ footer span {
 
 /* FREESTYLE CHANGES: 3 COLUMNS  */
 
-.click-bait {
+/* .click-bait {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+} */
+
+.click-bait {
     text-align: center;
 }
 
