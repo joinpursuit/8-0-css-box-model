@@ -1,0 +1,146 @@
+p {
+    font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: serif;
+    text-align: center;
+}
+    a{
+        text-decoration: none;
+        color: #4242ea;
+    }
+
+    span{
+        font-weight: 700;
+    }
+
+    .weather{
+        font-size: 40px;
+        width: 300px;
+        border: 2px solid gray;
+        
+    }
+    .breaking-news{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+    .above-the-fold article{
+        display: inline-block;
+    }
+    .breaking-news img {
+        width: 200px;
+    }
+
+    .click-bait article {
+        display: inline-block;
+        width: 250px;
+        margin: 16px;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    .below-the-fold article{
+        display: inline-block;
+    }
+    .below-the-fold img{
+        margin: 16px;
+        padding: 16px;
+        width: 200px;
+        display: inline-block;
+    }
+
+    .below-the-fold div {
+        width: 500px;
+    }
+
+body{
+    background-color:#c0c0c0;
+}
+
+ul{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style: none;
+}
+
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+p {
+    animation: color-change 1s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color: red; }
+    25% { color: yellow; }
+    50% { color: blue; }
+    75% { color: green; }
+    100% { color: orange; }
+  }
+
+  h4 {
+    animation: color-change 1s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color: red; }
+    25% { color: yellow; }
+    50% { color: blue; }
+    75% { color: green; }
+    100% { color: orange; }
+  }
+
+  li {
+    animation: color-change 1s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color: red; }
+    25% { color: yellow; }
+    50% { color: blue; }
+    75% { color: green; }
+    100% { color: orange; }
+  }
+
+p{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+Resources1× 0.5× 0.25×Rerun
+/*https://www.sliderrevolution.com/resources/css-animated-background//*
