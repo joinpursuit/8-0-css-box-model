@@ -25,6 +25,43 @@
     border: 1px solid blue;
 }
 
+.below-the-fold {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.below-the-fold div {
+    background-color: lightgrey;
+    padding: 30px;
+    border: 20px double white;
+}
+
+.below-the-fold article img {
+    border: 10px outset violet;
+    border-radius: 300px;
+    height: 200px;
+    background-color: black;
+}
+
+
+.below-the-fold div h2 {
+    color: violet;
+    background-color: rebeccapurple;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.below-the-fold div p {
+    /* border: 1px solid green; */
+    text-align: justify;
+    background-color: violet;
+    opacity: 80%;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+}
+
 footer div {
     display: flex;
     align-content: flex-start;
