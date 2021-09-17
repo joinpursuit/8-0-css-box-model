@@ -49,17 +49,23 @@ ul li{
   
   @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      text-shadow:0 0 30px #03A062, 0 0 40px #03A062, 0 0 50px #03A062, 0 0 60px #03A062, 0 0 70px #03A062;
     }
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      text-shadow: 0 0 40px #03A062, 0 0 50px #03A062, 0 0 60px #03A062, 0 0 70px #03A062, 0 0 80px #03A062;
     }
   }
 
 
 
-footer{
+footer {
     text-decoration-color: rgb(241, 240, 241);
+}
+
+footer div{
+    text-decoration-color: rgb(241, 240, 241);
+    display: flex;
+justify-content: space-evenly;
 }
 
 a {
@@ -81,11 +87,14 @@ footer span{
     display:inline-block;
     
 }
-.weather{
+
+.weather {
     width: 300px;
-    border: 2px solid gray;
-  
+    background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F07%2FDownload-Free-Weather-Background.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
 }
+
 
 /* centering Solved by Flexbox */
 /* .above-the-fold {
@@ -138,6 +147,16 @@ footer span{
 .below-the-fold div{
     width: 500px;
     text-align: center;
+    background-color:#848789;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
 .below-the-fold {
@@ -149,3 +168,8 @@ footer span{
 article {
     text-align: center;
 }
+
+footer h5 {
+    font-size: 25px;
+}
+
