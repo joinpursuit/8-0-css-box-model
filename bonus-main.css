@@ -1,0 +1,37 @@
+section.above-the-fold {
+    display: flex;
+    text-align: center;
+   
+}
+
+.below-the-fold div{
+    display: inline-block;
+    text-align: center;
+}
+
+section.below-the-fold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+section.click-bait{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+footer div {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ footer ul {
+     margin: 0 200px;
+ }
+
+ a.more_info {
+     color: yellow;
+ }
