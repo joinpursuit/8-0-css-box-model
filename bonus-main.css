@@ -4,6 +4,21 @@
  } */
 
 /* BONUS - Better alignment of inline elements. */
+
+div h1 {
+    position: fixed;
+    background-color: #fff;
+}
+
+div hr {
+    visibility: hidden;
+}
+
+
+.weather {
+    margin-top: 60px;
+}
+
 .weather div {
     display: flex; 
     background-color: midnightblue;
