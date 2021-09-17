@@ -53,7 +53,6 @@ footer span {
   margin: 16px;
   padding: 16px;
   box-sizing: border-box;
-  text-align: center;
 }
 
 .below-the-fold article {
@@ -75,7 +74,7 @@ footer div {
   display: flex;
   flex-direction: row;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .below-the-fold,
@@ -89,4 +88,35 @@ footer div {
 .click-bait {
   width: max-content;
   margin: auto;
+}
+
+.above-the-fold {
+  text-align: center;
+}
+
+.click-bait article {
+  vertical-align: middle;
+}
+
+h1,
+h5 {
+  margin: auto;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 10px;
+}
+
+.weather p {
+  display: inline-block;
+  margin: 10px;
+}
+
+.weather {
+  border-radius: 25px;
+}
+
+ol {
+  list-style: circle;
 }
