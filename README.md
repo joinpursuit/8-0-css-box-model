@@ -35,7 +35,7 @@ This will open the Cypress testing window, where you can click to run an individ
 To complete the tests in this lab, you will need to add the following styles. If you're unclear about any of the instructions below, remember that you can check the test file to see what exactly is being tested.
 
 **Hint**: while styling, you can use the following to help see your elements and understand their overall placement and size:
-
+*
 ```CSS
 * {
    border: 1px solid gold;
