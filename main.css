@@ -1,0 +1,98 @@
+/* -------------- FONT ------------------- */
+
+/* san serif */
+
+p {
+    font-family: sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+    text-align: center;
+}
+
+/* --------------- ANCHORS -----------------*/
+
+a {
+    text-decoration: none;
+    color: #4242EA;
+}
+
+/* -------- LIST -------------------------- */
+
+ul {
+    list-style: none;
+}
+
+/* ------------- FOOTER SPANS ---------------- */
+
+footer span {
+    font-weight: 700;
+}
+
+/* -------------- WEATHER PARAGRAPHS -------------- */
+
+/* Weather is a class, not an ID */
+
+.weather p{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* above the fold is a class, not an ID */
+
+.above-the-fold article {
+    display: inline-block;
+}
+
+/* ------- ALL ARTICLES ---------------------- */
+
+article.weather {
+    display: inline-block;
+    width: 300px;
+    border: 2px solid grey;
+}
+
+article.breaking-news {
+    padding: 0px 30px;
+}
+
+/* ----------- BREAKING NEWS PICTURE ----------------- */
+
+.breaking-news img {
+    width: 200px;
+}
+
+/* ------------- CLICK BAIT ----------------------- */
+
+.click-bait article {
+    display: inline-block;
+    width: 250px;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+
+}
+
+
+/* ---------- BELOW THE FOLD ___________________ */
+
+article.below-the-fold {
+    display: inline-block;
+}
+
+/* editng the photo */
+
+.below-the-fold img {
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    width: 200px;
+}
+
+/* setting the div */
+
+.below-the-fold div {
+    width: 500px;
+}
