@@ -1,0 +1,109 @@
+p {
+  font-family: sans-serif;
+}
+
+.weather {
+  width: 300px;
+  border: 2px solid gray;
+}
+
+.weather p {
+  font-size: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: serif;
+  text-align: center;
+  animation: headerColor 5s infinite;
+}
+@keyframes headerColor {
+  0% {
+    color: black;
+    font-size: smaller;
+  }
+  14% {
+    color: red;
+    font-size: small;
+  }
+  28% {
+    color: Orange;
+    font-size: medium;
+  }
+  42% {
+    color: Yellow;
+    font-size: large;
+  }
+  56% {
+    color: Green;
+    font-size: larger;
+  }
+  70% {
+    color: Blue;
+    font-size: large;
+  }
+  84% {
+    color: Indigo;
+    font-size: medium;
+  }
+  98% {
+    color: Violet;
+    font-size: small;
+  }
+  100% {
+    color: black;
+    font-size: smaller;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #4242ea;
+}
+
+ul {
+  list-style: none;
+}
+
+footer span {
+  font-weight: 700;
+}
+
+.above-the-fold article {
+  display: inline-block;
+}
+
+.below-the-fold article {
+  display: inline-block;
+}
+
+.below-the-fold img {
+  display: inline-block;
+  width: 200px;
+  margin: 16px;
+  padding: 16px;
+}
+
+.below-the-fold div {
+  width: 500px;
+}
+
+.breaking-news {
+  padding: 0px 30px;
+}
+
+.breaking-news img {
+  width: 200px;
+}
+
+.click-bait article {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 250px;
+  margin: 16px;
+  padding: 16px;
+}
