@@ -46,7 +46,7 @@ span {
   width: 200px;
 }
 
-.click-bait {
+.click-bait.article {
   display: inline-block;
   width: 250px;
   margin: 16px;
