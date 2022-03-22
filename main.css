@@ -1,3 +1,6 @@
+body {
+  background-color: gray;
+}
 p {
   font-family: sans-serif;
 }
@@ -28,6 +31,7 @@ article.weather {
 .weather p {
   font-size: 40px;
   width: 300px;
+  text-align: center;
 }
 .breaking-news {
   padding-left: 30px;
@@ -39,10 +43,33 @@ article.weather {
 .above-the-fold article {
   display: inline-block;
 }
-.click-bait {
+
+.click-bait article {
+  display: inline-block;
   width: 250px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   margin-left: 16px;
   margin-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-left: 16px;
   padding-right: 16px;
+  box-sizing: border-box;
+}
+
+.below-the-fold img {
+  display: inline-block;
+  width: 200px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.below-the-fold div {
+  width: 500px;
 }
