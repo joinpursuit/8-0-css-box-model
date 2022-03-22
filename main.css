@@ -28,22 +28,9 @@ ul {
 footer span {
     font-weight: 700;
 }
-
 .above-the-fold article {
  display: inline-block;
 }
-/*
-[ ] Set the image inside of the .breaking-news element to have a width of 200px.
-[ ] Set all articles inside the element with the class of .click-bait to have a display of inline-block.
-[ ] Set all articles inside the element with the class of .click-bait to have a width of 250px.
-[ ] Set all articles inside the element with the class of .click-bait to have 16px of margin and padding on all sides.
-[ ] Set all articles inside the element with the class of .click-bait to have box-sizing set to border-box.
-[ ] Set all articles inside the element with the class of .below-the-fold to have a display of inline-block.
-[ ] Set the image inside the element with the class of .below-the-fold to have a display of inline-block.
-[ ] Set the image inside the element with the class of .below-the-fold to have 16px of margin and padding on all sides.
-[ ] Set the image inside the element with the class of .below-the-fold to have a width of 200px.
-[ ] Set the div inside the element with the class of .below-the-fold to have a width of 500px.
- */
  article.weather {
      width: 300px;
      border: solid;
@@ -58,4 +45,23 @@ footer span {
  }
 .breaking-news img {
     width: 200px;
+}
+.click-bait article {
+ display: inline-block;
+ width: 250px;
+ margin: 16px;
+ padding: 16px;
+ box-sizing: border-box;
+}
+.below-the-fold article {
+    display: inline-block;
+}
+.below-the-fold img {
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    width: 200px;
+}
+.below-the-fold div {
+    width: 500px;
 }
