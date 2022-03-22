@@ -1,0 +1,25 @@
+p {
+    font-family: sans-serif;
+}
+h1
+h2
+h3
+h4
+h5 {
+    font-family: sans-serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #4242EA;
+}
+
+ul{
+    list-style: none;
+}
+article.breaking-news{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
