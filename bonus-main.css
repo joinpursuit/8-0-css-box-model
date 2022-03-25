@@ -1,12 +1,5 @@
 /** @format */
 
-.above-the-fold {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
 .above-the-fold img {
   margin: 50px;
 }
