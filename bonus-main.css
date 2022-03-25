@@ -1,0 +1,28 @@
+/** @format */
+
+.above-the-fold {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.above-the-fold img {
+  margin: 50px;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+h1,
+h2,
+h3 {
+  color: gold;
+  text-shadow: 3px 3px 3px rgb(50, 0, 50);
+}
+
+footer {
+  background-color: teal;
+  margin: auto;
+}
