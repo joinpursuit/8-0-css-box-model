@@ -1,3 +1,7 @@
+section {
+    text-align: center;
+}
+
 p {
     font-family: sans-serif;
 }
@@ -14,10 +18,19 @@ a {
 
 ul {
     list-style: none;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    
+    
 }
 
 footer span {
     font-weight: 700;
+}
+
+footer {
+    text-align: center;
 }
 
 .weather p {
@@ -26,18 +39,26 @@ footer span {
 
 .above-the-fold article {
     display: inline-block;
+    
+}
+.above-the-fold:not() {
+    display: flex;
+    
 }
 
 .weather {
     width: 300px;
     border: 2px solid gray;
+    margin-top: auto;
 }
 
 .breaking-news {
     padding: 0px 30px;
+    width: 60%;
 }
 .breaking-news img {
     width: 200px;
+    
 }
 
 .click-bait article {
@@ -60,4 +81,5 @@ footer span {
 }
 .below-the-fold div {
     width: 500px;
+    display: inline-block;
 }
