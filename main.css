@@ -44,3 +44,14 @@ span {
     padding: 16px;
     box-sizing: border-box;
 }
+
+.below-the-fold img {
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    width: 200px;
+}
+
+.below-the-fold div {
+    width: 500px;
+}
