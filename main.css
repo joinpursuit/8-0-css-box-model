@@ -25,5 +25,11 @@ span{
 }
 
 .weather{
-    font-size: 40px
+    font-size: 40px;
+    display: inline-block;
 }
+
+.breaking-news{
+    display: inline-block;
+}
+
