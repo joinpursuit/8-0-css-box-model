@@ -27,9 +27,11 @@ span{
 .weather{
     font-size: 40px;
     display: inline-block;
+    width: 300px
 }
 
 .breaking-news{
     display: inline-block;
 }
+
 
