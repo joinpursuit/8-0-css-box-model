@@ -62,12 +62,12 @@ footer span{font-weight: 700;
     box-sizing: border-box;
 }
 
-/* .below-the-fold img{
+.below-the-fold img{
     display: inline-block;
     margin: 16px;
     padding: 16px;
     width: 200px;
-} */
+}
 
 /* .below-the-fold div{
     width: 500px;
