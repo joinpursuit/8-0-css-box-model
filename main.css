@@ -11,3 +11,7 @@ h6{
     font-family:serif;
     text-align: center;
 }
+
+a{
+    text-decoration: none;
+}
