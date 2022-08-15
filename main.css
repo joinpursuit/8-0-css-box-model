@@ -36,3 +36,11 @@ span {
 .breaking-news img {
     width: 200px;
 }
+
+.click-bait article {
+    display: inline-block;
+    width: 250px;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
