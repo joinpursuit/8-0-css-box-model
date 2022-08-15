@@ -19,3 +19,20 @@ span {
 .weather p {
     font-size: 40px;
 }
+
+.above-the-fold article {
+    display: inline-block;
+}
+
+.weather {
+    width: 300px;
+    border: 2px solid rgb(128, 128, 128)
+}
+
+.breaking-news {
+    padding: 0px 30px;
+}
+
+.breaking-news img {
+    width: 200px;
+}
