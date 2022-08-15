@@ -19,3 +19,7 @@ a{
 a:link{
     color: #4242ea;
 }
+
+span{
+    font-weight: 700
+}
