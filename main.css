@@ -33,6 +33,8 @@ span{
 
 .breaking-news{
     display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
