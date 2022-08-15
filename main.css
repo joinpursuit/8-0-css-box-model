@@ -5,12 +5,12 @@
 p {font-family: sans-serif;
  }
 
- /* h1 {
+ h1 {
     font-family: serif;
     text-align: center;
  }
 
-h2 {
+/* h2 {
 font-family: serif;
 text-align: center
 }
@@ -43,7 +43,7 @@ footer span{font-weight: 700;
     width: 300px;
     border: 2px solid rgb(128, 128, 128);
 }
-/*had issue with short hand*/
+/*had issue with short hand
 .breaking-news{padding-left:30px;
     padding-right: 30px;  
 }
@@ -70,4 +70,4 @@ footer span{font-weight: 700;
 .below-the-fold div{
     width: 500px;
 } */
-
+ */
