@@ -1,0 +1,68 @@
+body {
+
+}
+
+p {
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: serif;
+    text-align: center;
+}
+
+.above-the-fold  article {
+    display: inline-block;
+}
+
+.breaking-news img {
+    width: 200px;
+}
+.breaking-news {
+    padding: 0px 30px 0px 30px;
+    width: 200px;
+}
+
+.click-bait article {
+    width: 250px;
+    margin: 16px 16px 16px 16px;
+    padding: 16px 16px 16px 16px ;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.weather p {
+    font-size: 40px;
+}
+
+.weather {
+    width: 300px; 
+    border: 2px solid rgb(128, 128, 128)
+}
+
+a {
+    text-decoration: none;
+}
+a {
+    color: #4242EA;
+}
+
+footer span {
+    font-weight: 700;
+}
+
+.below-the-fold img  {
+    display: inline-block;
+    margin: 16px 16px 16px 16px;
+    padding: 16px 16px 16px 16px ;
+    width: 200px;
+}
+
+.below-the-fold div {
+    width: 500px;
+}
