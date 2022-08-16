@@ -27,6 +27,26 @@ h5 {
 a {
     text-decoration: none;
     color: #4242ea;
-    
 
+
+}
+ul {
+    list-style-type :none;
+
+}
+span {
+    font-weight: 700;
+}
+.above-the-fold article {
+    display: inline-block;
+}
+article.breaking-news {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.breaking-news img {
+    width: 200px;
 }
