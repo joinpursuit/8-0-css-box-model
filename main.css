@@ -24,21 +24,31 @@ span {
     font-size: 40px;
 }
 
+.above-the-fold {
+    display: flex;
+    padding:10px 60px;
+}
+
 .above-the-fold article { 
     display: inline-block;
 }
 
 .weather {
-    width: 300px;
+    width:300px;
     border: 2px solid gray;
+    padding: 0 100px
 }
 
 .breaking-news { 
     padding: 0px 30px;
+    width: auto;
+    text-align: center;
 }
 
 .breaking-news img {
+    display: block;
     width: 200px;
+    margin: 0 auto;
 }
 
 .click-bait article {
