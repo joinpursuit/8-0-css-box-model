@@ -1,17 +1,14 @@
-* {
-    border: 1px solid gold;
+* {border: 1px solid gold;
  }
 
 p {font-family: sans-serif;
  }
 
- h1 {
-    font-family: serif;
+ h1 {font-family: serif;
     text-align: center;
  }
 
-h2 {
-font-family: serif;
+h2 {font-family: serif;
 text-align: center
 } 
 
@@ -23,7 +20,7 @@ h4 {font-family: serif;
     text-align: center
  }
 
-h5{font-family: serif;
+h5 {font-family: serif;
 text-align: center;}
 
 a {text-decoration: none;
