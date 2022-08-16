@@ -18,9 +18,8 @@
     "url": "https://github.com/joinpursuit/8-0-css-box-model/issues"
   },
   "homepage": "https://github.com/joinpursuit/8-0-css-box-model#readme",
-  "devDependencies": {
-    "cypress": "9.7.0",
-    "cypress-watch-and-reload": "1.10.3",
-    "live-server": "1.1.0"
+  "dependencies": {
+    "cypress": "^10.4.0",
+    "cypress-watch-and-reload": "^1.10.3"
   }
 }
