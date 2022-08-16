@@ -24,10 +24,7 @@ span {
     font-size: 40px;
 }
 
-.above-the-fold {
-    display: flex;
-    padding:10px 60px;
-}
+
 
 .above-the-fold article { 
     display: inline-block;
@@ -50,6 +47,7 @@ span {
     width: 200px;
     margin: 0 auto;
 }
+
 
 .click-bait article {
     display: inline-block;
