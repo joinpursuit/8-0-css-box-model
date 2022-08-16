@@ -1,3 +1,7 @@
+* {
+    border: 1px solid gold;
+}
+
 p {
     font-family: sans-serif;
 }
@@ -24,6 +28,7 @@ footer span {
     font-size: 40px;
     width: 300px;
     border: 2px solid gray;
+    background-color: skyblue;
 }
 
 .above-the-fold article {
@@ -36,6 +41,9 @@ footer span {
 
 .breaking-news img {
     width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .click-bait article {
@@ -47,7 +55,7 @@ footer span {
 }
 
 .below-the-fold {
-display: inline-block;
+    display: inline-block;
 }
 
 .below-the-fold img {
@@ -59,4 +67,32 @@ display: inline-block;
 
 .below-the-fold div {
     width: 500px;
+}
+
+ol :nth-child(2n) {
+    color: green;
+    background-color: orange;
+}
+
+ol :nth-child(2n-1) {
+    color: orange;
+    background-color: green;
+}
+
+ul :first-child {
+    color: purple;
+}
+
+ul :nth-child(2) {
+    color: blueviolet;
+}
+
+ul :nth-child(3) {
+    color: darkblue;
+}
+
+h5 {
+    font-size: 25px;
+    color: purple;
+    background-color: moccasin;
 }
