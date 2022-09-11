@@ -42,16 +42,16 @@ To complete the tests in this lab, you will need to add the following styles. If
 }
 ```
 
-- [ ] Set all paragraph text to have a font of `sans-serif`.
-- [ ] Set all heading text to have a font of `serif`.
-- [ ] Set all heading text to be centered.
-- [ ] Set all anchor elements to have no text decoration.
-- [ ] Set all anchor elements to have a color of `#4242EA`.
-- [ ] Set all unordered lists to have no list-style.
-- [ ] Set all `span` elements inside the footer to have a `font-weight` of `700`.
-- [ ] Set all paragraph text inside the element with the class of `weather` to have a font size of `40px`.
-- [ ] Set all articles inside the `.above-the-fold` element to have a `display` value of `inline-block`.
-- [ ] Set the `.weather` element to have a `width` of `300px`.
+- [y ] Set all paragraph text to have a font of `sans-serif`.
+- [ y] Set all heading text to have a font of `serif`.
+- [ y] Set all heading text to be centered.
+- [ y] Set all anchor elements to have no text decoration.
+- [y ] Set all anchor elements to have a color of `#4242EA`.
+- [ y] Set all unordered lists to have no list-style.
+- [ y] Set all `span` elements inside the footer to have a `font-weight` of `700`.
+- [ y] Set all paragraph text inside the element with the class of `weather` to have a font size of `40px`.
+- [ y] Set all articles inside the `.above-the-fold` element to have a `display` value of `inline-block`.
+- [ y] Set the `.weather` element to have a `width` of `300px`.
 - [ ] Set the `.weather` element to have a `2px gray border` on all sides.
 - [ ] Set the `.breaking-news` element to have a top/down padding of `0px` and a left/right padding of `30px`.
 - [ ] Set the image inside of the `.breaking-news` element to have a `width` of `200px`.
