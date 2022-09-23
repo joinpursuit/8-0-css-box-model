@@ -44,7 +44,7 @@ span {
     flex-wrap: nowrap;
     flex-direction: column;
     padding-top: 50px;
-    padding-left: 50px;
+    padding: 0px 30px;
 }
 
 .breaking-news img {
@@ -54,6 +54,7 @@ span {
     position: absolute;
     left: 43.5%;
     bottom: 60%;
+    padding: 0px 30px;
 }
 
 .click-bait article {
