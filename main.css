@@ -4,7 +4,7 @@ p {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: serif;
-    text-align: center;
+    text-align: center; 
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 
 ul {
     list-style: none;
-    
+
 }
 
 footer span {
