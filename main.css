@@ -2,11 +2,11 @@ p {
     font-family: sans-serif;
 }
 
-h1
-h2
-h3
-h4
-h5
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
     font-family: serif;
     text-align: center;
@@ -26,11 +26,12 @@ footer span {
     font-weight: 700;
 }
 
-p.weather {
+.weather p {
     font-size: 40px;
 }
 
-.above-the-fold {
+
+.above-the-fold article{
     display: inline-block;
 }
 
@@ -40,7 +41,8 @@ p.weather {
 }
 
 .breaking-news {
-    padding: 0px, 30px, 0px, 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .breaking-news img {
@@ -48,6 +50,14 @@ p.weather {
 }
 
 .click-bait {
+    display: inline-block;
+    width: 250px;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.click-bait article {
     display: inline-block;
     width: 250px;
     margin: 16px;
