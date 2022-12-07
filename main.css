@@ -49,4 +49,17 @@ footer span {
 .click-bait article{
     display: inline-block;
     width: 250px;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.below-the-fold article {
+    display: inline-block;
+}
+
+.below-the-fold img {
+    display: inline-block;
+    margin: 16px;
+    padding: 16px:
 }
