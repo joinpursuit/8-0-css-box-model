@@ -1,0 +1,57 @@
+p {
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: serif;
+    text-align: center; 
+}
+
+a {
+    text-decoration: none;
+    color: #4242ea;
+}
+
+ul {
+    list-style: none;
+
+}
+
+footer span {
+    font-weight: 700;
+}
+
+.weather p {
+    font-size: 40px;
+}
+
+.weather {
+    width: 300px;
+    border: 2px solid gray;
+}
+
+.breaking-news {
+    padding: 0 30px;
+}
+
+.click-bait article {
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.below-the-fold div {
+    width: 500px;
+}
+
+.above-the-fold article, .click-bait article, .below-the-fold article, .below-the-fold img {
+    display: inline-block;
+}
+
+.breaking-news img, .below-the-fold img {
+    width: 200px;
+}
+
+.click-bait article, .below-the-fold img {
+    padding: 16px;
+    margin: 16px;
+}
