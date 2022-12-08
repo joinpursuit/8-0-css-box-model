@@ -1,0 +1,69 @@
+p{
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(66, 66, 234);
+}
+
+span{
+    font-weight: 700;
+}
+
+.weather p{
+    font-size: 40px;
+}
+
+.weather{
+    width: 300px;
+}
+
+.above-the-fold article{
+    display: inline-block;
+}
+
+.weather{
+    border: 2px solid gray ;
+}
+
+.breaking-news{
+    padding: 0px 30px;
+}
+
+.breaking-news img{
+    width: 200px;
+}
+
+.click-bait article{
+    width: 250px;
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.below-the-fold img{
+    display: inline-block;
+    margin: 16px;
+    width: 200px;
+    padding: 16px;
+    
+}
+
+.below-the-fold div{
+    width: 500px;
+    
+}
+
+body{
+
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/017/663/248/original/anastasia-kozheko-cloudy.gif?1556866803);
+    width: 100%;
+    height: 100%;
+}
