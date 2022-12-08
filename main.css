@@ -1,6 +1,10 @@
-* {
+/* * {
     border: 1px solid crimson;
+} */
+/* * {
+    box-sizing: border-box;
 }
+*/
 
 p {
     font-family: sans-serif;
@@ -80,4 +84,14 @@ img {
 
 .below-the-fold div {
     width: 500px;
+}
+footer li {
+    box-sizing: border-box;
+    display: flex;
+    width: 300px;
+}
+footer ul {
+    width: 300px;
+    display: inline-block;
+
 }
