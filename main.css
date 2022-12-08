@@ -61,3 +61,16 @@ footer span {
 .below-the-fold div {
     width: 500px;
 }
+
+.top-hacks li {
+    list-style-type: upper-roman;
+}
+
+.top-container {
+    margin: auto; 
+    width: 50%;
+}
+
+body {
+    background-color: whitesmoke;
+}
