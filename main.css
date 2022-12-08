@@ -1,5 +1,9 @@
+ body {
+    background-color:wheat;
+ }
  p {
     font-family: sans-serif;
+    text-align: justify;
  }
 
  h1,h2,h3,h4,h5,h6 {
@@ -39,8 +43,29 @@
 
  .breaking-news img {
     width:200px;
+    display: inline;
+    float: right;
  }
 
  .click-bait article {
     display: inline-block;
+    width: 250px;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+ }
+ 
+ .below-the-fold article {
+    display: inline-block;
+ }
+
+ .below-the-fold img {
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    width: 200px;
+ }
+
+ .below-the-fold div {
+    width: 500px;
  }
