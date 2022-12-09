@@ -1,5 +1,6 @@
 h1,h2,h3,h4,h5{
     font-family: serif;
+    text-align: center;
 }
 p{
     font-family: sans-serif;
@@ -7,6 +8,7 @@ p{
 
 a{
     color: #4242ea;
+    text-decoration: none;
 }
 
 ul{
@@ -16,7 +18,21 @@ ul{
 span{
     font-weight: 700;
 }
-
+.above-the-fold{
+    display: inline-block;
+}
 .weather{
     font-size: 40px;
+    width: 300px;
+    border: 2px grey;
+}
+.breaking-news{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.click-bait{
+    display: inline-block;
+}
+a.click-bait{
+    width: 250px;
 }
