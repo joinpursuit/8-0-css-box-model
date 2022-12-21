@@ -24,3 +24,40 @@ footer span{
 .weather p{
     font-size: 40px;
 }
+
+.weather{
+    width: 300px;
+    border: 2px solid rgb(128, 128, 128);
+}
+
+.above-the-fold article{
+    display: inline-block;
+}
+
+.breaking-news{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.breaking-news img{
+    width: 200px;
+}
+
+.click-bait article{
+    display: inline-block;
+    width: 250px;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.below-the-fold img{
+    display: inline-block;
+    margin: 16px;
+    padding: 16px;
+    width: 200px;
+}
+
+.below-the-fold div{
+    width: 500px;
+}
