@@ -12,3 +12,15 @@ a{
     text-decoration: none;
     color: #4242EA;
 }
+
+ul{
+    list-style: none;
+}
+
+footer span{
+    font-weight: 700;
+}
+
+.weather p{
+    font-size: 40px;
+}
