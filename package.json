@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/joinpursuit/8-0-css-box-model#readme",
   "devDependencies": {
-    "cypress": "9.7.0",
+    "cypress": "^11.2.0",
     "cypress-watch-and-reload": "1.10.3",
     "live-server": "1.1.0"
   }
